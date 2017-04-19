@@ -1,1 +1,8 @@
-
+- charts:
+  - clusters:
+    - minikube
+    configuration: {}
+    name: grafana-prometheus
+    src: https://github.com/kuberlab-catalog/grafana-prometheus/chart/
+    version: 1.0.1
+  name: mon
