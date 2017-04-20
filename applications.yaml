@@ -1,1 +1,14 @@
-[{"name":"mon","charts":[{"name":"grafana-prometheus","clusters":["minikube"],"src":"https://github.com/kuberlab-catalog/grafana-prometheus/chart/","version":"1.0.1","configuration":{}},{"name":"grafana-prometheus","clusters":["minikube"],"src":"https://github.com/kuberlab-catalog/grafana-prometheus/chart/","version":"1.0.1","configuration":{}}]}]
+- charts:
+  - clusters:
+    - minikube
+    configuration: {}
+    name: grafana-prometheus
+    src: https://github.com/kuberlab-catalog/grafana-prometheus/chart/
+    version: 1.0.1
+  - clusters:
+    - minikube
+    configuration: {}
+    name: grafana-prometheus
+    src: https://github.com/kuberlab-catalog/grafana-prometheus/chart/
+    version: 1.0.1
+  name: mon
