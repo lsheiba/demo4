@@ -40,3 +40,11 @@
     src: https://github.com/lsheiba/fast-neural-style/
     version: 1.0.0
   name: fast
+- charts:
+  - clusters:
+    - minikube
+    configuration: {}
+    name: kubernetes-dashboard
+    src: https://github.com/kuberlab-catalog/kubernetes-dashboard/
+    version: 1.0.0
+  name: kadm
