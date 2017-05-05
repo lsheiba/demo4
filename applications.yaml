@@ -50,7 +50,7 @@
           accessMode: ReadWriteMany
           enabled: true
           nfs:
-            codiadPath: codiad
+            codiadPath: testco
             path: /kuberlab
             server: 192.168.1.55
           size: 16Gi
