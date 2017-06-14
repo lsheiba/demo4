@@ -1,5 +1,5 @@
 - Account: keberlab-test
-  AutoDeploy: true
+  AutoDeploy: false
   Name: demo-cluster-1
   Provider: google
   Src: demo-cluster-1.yaml
