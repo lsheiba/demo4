@@ -19,7 +19,6 @@
   Provider: kubernetes
   Src: minikube.yaml
 - Account: kl-demo1
-  AutoDeploy: true
   Name: kl-demo1-cluster
   Provider: google
   Src: kl-demo1-cluster.yaml
