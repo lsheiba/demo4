@@ -1,20 +1,25 @@
 - Account: keberlab-test
-  MasterIP: ""
+  AutoDeploy: true
   Name: demo-cluster-1
   Provider: google
   Src: demo-cluster-1.yaml
 - Account: kl-demo3
-  MasterIP: ""
+  AutoDeploy: true
   Name: demo-cluster-2
   Provider: google
   Src: demo-cluster-2.yaml
 - Account: kl-demo2
-  MasterIP: ""
+  AutoDeploy: true
   Name: demo-cluster-3
   Provider: google
   Src: demo-cluster-3.yaml
 - Account: gpuhome
-  MasterIP: ""
+  AutoDeploy: true
   Name: minikube
   Provider: kubernetes
   Src: minikube.yaml
+- Account: kl-demo1
+  AutoDeploy: true
+  Name: kl-demo1-cluster
+  Provider: google
+  Src: kl-demo1-cluster.yaml
