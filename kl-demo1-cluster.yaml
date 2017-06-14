@@ -24,7 +24,7 @@ instances:
 kubernetes_version: v1.6.2
 name: kl-demo1-cluster
 storage:
-  disk_size: 32
+  disk_size: 30
   disk_type: pd-standard
   instance_count: 1
   instance_type: n1-standard-1
