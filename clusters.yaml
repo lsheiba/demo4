@@ -23,3 +23,8 @@
   Name: kl-demo1-cluster
   Provider: google
   Src: kl-demo1-cluster.yaml
+- Account: kuberlab-demo
+  AutoDeploy: true
+  Name: demo-test
+  Provider: google
+  Src: demo-test.yaml
