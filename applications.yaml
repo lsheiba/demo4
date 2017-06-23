@@ -21,4 +21,4 @@
     name: codiad
     src: https://github.com/kuberlab-catalog/codiad/
     version: 1.0.1
-  name: codiad-pb
+  name: codiad-pb2
