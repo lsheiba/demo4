@@ -3,7 +3,7 @@ kubernetes_version: v1.6.2
 zone: us-west1-a
 instances:
   - name: front
-    count: 1
+    count: 2
     labels:
       type: front
       class: fast1
