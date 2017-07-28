@@ -213,3 +213,13 @@
     src: https://github.com/kuberlab-catalog/styles-transfer-v2/
     version: 1.0.0
   name: atest
+- charts:
+  - clusters:
+    - demo-cluster-1
+    configuration:
+      values:
+        storage: default
+    name: styles-transf-1
+    src: https://github.com/kuberlab-catalog/styles-transfer-v2/
+    version: 1.0.0
+  name: aaaaaaaaaaa
