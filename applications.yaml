@@ -31,6 +31,14 @@
     name: elasticsearch-1
     src: https://github.com/iljapoletaev/ku_test/elastic
     version: 0.1.2
+  - clusters:
+    - demo-cluster-1
+    configuration:
+      values:
+        storage: default
+    name: styles-transf-1
+    src: https://github.com/kuberlab-catalog/styles-transfer-v2/
+    version: 1.0.0
   name: asdasd
 - charts:
   - clusters:
