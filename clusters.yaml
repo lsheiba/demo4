@@ -13,3 +13,8 @@
   Name: demo-cluster-3
   Provider: google
   Src: demo-cluster-3.yaml
+- Account: gpuhome
+  AutoDeploy: false
+  Name: testgpu
+  Provider: kubernetes
+  Src: testgpu.yaml
